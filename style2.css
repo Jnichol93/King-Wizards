@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+.vidback2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  }
+
+.vidback2 h1 {
+  border-style: dotted;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  left:0px;
+  color: black;
+  font-family: Nexa;
+  text-align: center;
+  font-size: 4;
+    padding: 20px;
+  margin: 0px;
+  z-index: 1;
+  background-color: red;
+  opacity: 0.5;
+  color: white;
+}
+
+
+
+
+.welcome p {
+  border-style: outset;
+  border-width: 10px;
+  background-image: url("csgo.webp");
+position: fixed;
+  top: 200px;
+  left:100px;
+  height: 250px;
+  width: 580px;
+color: white;
+  text-align: center;
+  font-size: 38px;
+    padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.6;
+  background-color: white;
+  counter-increment: inherit;
+}
+
+
+
+
+
+.video-container2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+.color-overlay2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.1;
+}
