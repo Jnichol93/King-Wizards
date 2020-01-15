@@ -4,40 +4,43 @@ body {
   background-size: cover;
 
 }
+
 .vidback2 {
+  background-image: url(skypage.jpg);
+background-repeat: repeat;
+  background-attachment: fixed;
+  position: absolute;
+  height: 200vh;
+  width: 50vw;
+  left:25%;
+  top: 25%;
+  border-top-style: groove;
+  border-left-style:groove;
+  border-right-style: groove;
+  border-width: 25px;
+  border-color: brown;
+  align-content: center;
   background-blend-mode: lighten;
-background-color: transparent;
-
-  background-position: center;
-  background-size: cover;
-  background-size: auto;
-margin:0;
-  position: relative;
-  width: 100%;
-  height:800px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  }
+}
 
 
-.vidback2 marquee {
+
+marquee {
+
   background-color: transparent;
 position: absolute;
   font-size: 100px;
-  width: 100%;
-  height: 20%;
-  top: 10%;
-  left:25px;
+  width: 51vw;
+  height: 10%;
+  top: 0;
   color: black;
   font-family: 'Lobster', cursive;
   text-align: center;
   font-size: 4;
     padding: 0px;
   margin: 0px;
-  z-index: 1;
 
+z-index: 1;
   color: white;
 }
 
@@ -50,9 +53,9 @@ position: absolute;
   background-image: url("csgo.webp");
 position: absolute;
   top: 320px;
-  left:100px;
-  height: 250px;
-  width: 580px;
+  left:200px;
+  height: 25vh;
+  width: 25vw;
 color: white;
   text-align: center;
   font-size: 38px;
@@ -83,8 +86,8 @@ color: white;
   border-width: 10px;
   background-image: url("rust.jpg");
 position: absolute;
-  top: 320px;
-  left:1000px;
+  top: 1000px;
+  left:30px;
   height: 350px;
   width: 750px;
 color: green;
@@ -93,7 +96,7 @@ align-items: center;
   font-size: 38px;
     padding: 20px;
   margin: 15px;
-  z-index: 1;
+  z-index: 2;
   opacity: 0.9;
   background-color: white;
   counter-increment: inherit;

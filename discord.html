@@ -7,50 +7,62 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Lobster&display=swap');
 
 .nav {
-  position: absolute;
-  top: 0px;
-
-  position: -webkit-sticky;
+position: -webkit-sticky;
   position: sticky;
 top: 0px;
-  z-index: 3;
+z-index: 1;
+
 
 
 }
 
 
-.ul {
-  position: fixed;
+ul {
+  position: sticky;
+  top: 0;
   list-style-type: none;
   border-radius: 0;
   margin:0;
   padding: 0;
-  width: 100%;
-z-index: 3;
+  height: 200vh;
+  z-index: 1;
+
 text-decoration: none;
 }
 li {
-  width: 16%;
+  position: sticky;
+  top: 0;
+  width: 30vh;
   font-family: intro;
   text-align: center;
   display:block;
   float: left;
-  border: 5px solid #bbb;
+  border-left: 5px solid #bbb;
+  border-right: 5px solid #bbb;
   text-decoration: none;
+  z-index: 1;
 }
 li a {
   display: block;
   border-width: 20px;
-color: black;
+color: orange;
 width: cover;
 padding: 16px;
 border-color: cyan;
-background-color: grey;
+background-color: black;
 text-decoration: none;
-
+opacity:0.8;
+z-index: 1;
 }
-  </style>
+.li3 {
+  background-color:green;
+  opacity:.5;
+}
 
+
+
+
+  </style>
   <link rel= "stylesheet" href ="discord.css">
 
 
@@ -64,10 +76,11 @@ text-decoration: none;
        <li><a class="li2" href="home.html"><b>Home</b></a></li>
        <li><a class="li3" href="discord.html"><b>Discord</a></li>
        <li><a class="li4"href="team.html">The Team</a></li>
-       <li><a class="li5" href="about.asp">Social Media</a></li>
-       <li><a class="li6" href="about.asp">Merchandise</a></li>
+       <li><a class="li5" href="social.html">Social Media</a></li>
+       <li><a class="li6" href="merch.html">Merchandise</a></li>
        <li><a class="li7" href="videos.html">Videos</a></li></b>
      </ul> </div>
+
 
     <div class = "discord" id = "disc">
 
@@ -75,16 +88,17 @@ text-decoration: none;
 
  <iframe class= "dc" src="https://discordapp.com/widget?id=651469227374542887&theme=dark" width="50%" height="500" allowtransparency="true" frameborder="0" opacity="0.5"></iframe>
 
-
+ <div class = bounce>
+   <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+   <marquee behavior="alternate">
+     Join The Community And <br> Discuss Your Favourite Games,<br> Or Join Our Gaming Session!
+   </marquee>
+ </marquee>
+ </div>
 
            </div>
-<div class = bounce>
-  <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
-  <marquee behavior="alternate">
-    Join The Community And <br> Discuss Your Favourite Games,<br> Or Join Our Gaming Session!
-  </marquee>
-</marquee>
-</div>
+
+
 
 
 

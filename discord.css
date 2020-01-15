@@ -1,18 +1,29 @@
 body {
-background-color: #738ADB;
+background-image: url(beast.webp);
+background-repeat: repeat;
+background-attachment: fixed;
 }
 .discord {
-  margin: 0;
-  background-position: center;
-  background-size: cover;
-  position: center;
+  background-image: url(sea.jpg);
+  background-attachment: fixed;
+  position: absolute;
+  height: 100vh;
+  width: 50vw;
+  left:25%;
+  height: 300vh;
+top: 25%;
+  border-style: groove;
+  border-width: 25px;
+  border-color: brown;
+  align-content: center;
+  background-blend-mode: lighten;
 
 }
 
 .discord h1 {
   position: center;
   top: 0px;
-  left: 0px;
+  left: 10px;
   align-items: center;
   text-align: center;
   font-size: 50px;
@@ -27,16 +38,25 @@ background-color: #738ADB;
 }
 
 .discord iframe {
-  position: fixed;
-  top: 25%;
+  position: absolute;
+  top: 15%;
   left: 25%;
+  height:25%;
+  width:50%;
 }
 
 .bounce {
   position: absolute;
-  left: 10%;
-  top: 40%;
-  height: 300px;
-  width: 500px;
+  left: 35%;
+  top: 5%;
+  height: 20vh;
+  width: 50vw;
   color: red;
+  border-color: transparent;
+  font-weight: bold;
+
+}
+.marquee {
+  width:50vw;
+  font-weight: bold;
 }
