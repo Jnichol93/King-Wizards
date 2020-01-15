@@ -1,0 +1,42 @@
+body {
+background-color: #738ADB;
+}
+.discord {
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  position: center;
+
+}
+
+.discord h1 {
+  position: center;
+  top: 0px;
+  left: 0px;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background:#738adb;
+  z-index: 1;
+}
+.dc {
+  position: center;
+
+
+}
+
+.discord iframe {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+}
+
+.bounce {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  height: 300px;
+  width: 500px;
+  color: red;
+}

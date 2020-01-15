@@ -1,31 +1,43 @@
 body {
-  background-color: black;
+  background-image: url(csgobg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .vidback2 {
+  background-blend-mode: lighten;
+background-color: transparent;
+
+  background-position: center;
+  background-size: cover;
+  background-size: auto;
+margin:0;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height:800px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   }
 
-.vidback2 h1 {
-  border-style: inset;
-  position: absolute;
+
+.vidback2 marquee {
+  background-color: transparent;
+position: absolute;
+  font-size: 100px;
   width: 100%;
-  top: 100px;
-  left:0px;
+  height: 20%;
+  top: 10%;
+  left:25px;
   color: black;
-  font-family: Nexa;
+  font-family: 'Lobster', cursive;
   text-align: center;
   font-size: 4;
-    padding: 10px;
+    padding: 0px;
   margin: 0px;
   z-index: 1;
-  background-color: black;
-  opacity: 0.5;
+
   color: white;
 }
 
@@ -37,7 +49,7 @@ body {
   border-width: 10px;
   background-image: url("csgo.webp");
 position: absolute;
-  top: 220px;
+  top: 320px;
   left:100px;
   height: 250px;
   width: 580px;
@@ -63,47 +75,18 @@ color: white;
   width: 100%;
 
 }
-.color-overlay2{
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: red;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.1;
-}
 
 
-.discord {
-  margin: 0;
-}
-
-.discord h1 {
-  position: absolute;
-  top: 2200px;
-  left: 510px;
-  align-items: center;
-  text-align: center;
-  font-size: 50px;
-  color: white;
-  background:#738adb;
-  z-index: 1;
-}
-.dc {
-  position: absolute;
-  left: 500px;
-  top: 2300px;
-
-}
 .games {
+  font-family: 'Alfa Slab One', cursive;
   border-style: outset;
   border-width: 10px;
   background-image: url("rust.jpg");
 position: absolute;
-  top: 220px;
+  top: 320px;
   left:1000px;
-  height: 405px;
-  width: 780px;
+  height: 350px;
+  width: 750px;
 color: green;
 align-items: center;
   text-align: center;
@@ -114,3 +97,4 @@ align-items: center;
   opacity: 0.9;
   background-color: white;
   counter-increment: inherit;
+}

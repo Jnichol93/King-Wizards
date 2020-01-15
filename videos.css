@@ -1,0 +1,61 @@
+body {
+background-image: url(beast.webp);
+background-size: cover;
+background-repeat:repeat;
+}
+
+.videos
+{
+  background-image: url(beastpage.jpg);
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left:25%;
+  height: cover;
+  z-index: 1;
+  top: 25%;
+  border-style: groove;
+  border-width: 25px;
+  border-color: brown;
+  align-content: center;
+  background-blend-mode: lighten;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Bangers', cursive;
+}
+.vid1 {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+border: inset;
+border-color: black;
+border-width: 20px;
+}
+.vid2 {
+  position: absolute;
+  left: 20%;
+  top: 55%;
+border: inset;
+border-color: black;
+border-width: 20px;
+}
+.vid3 {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+border: inset;
+border-color: black;
+border-width: 20px;
+}
+.vid4 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+border: inset;
+border-color: black;
+border-width: 20px;
+}
